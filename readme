@@ -10,7 +10,8 @@ npx webpack
     "start": "webpack-dev-server",
     "build": "rm -rf dist && npx webpack",
   },
-可使用打包命令 npm run build  删除缓存dist文件夹，再运行npx webpack
+可使用打包命令 npm run build  删除缓存dist文件夹，再运行npx webpack，
+打包后重新生成dist文件夹，该文件夹下的index.html可直接访问。
 使用npm run start 本地预览,注意webpack-dev-server不依赖dist文件，它是在内存中处理的
 
 
