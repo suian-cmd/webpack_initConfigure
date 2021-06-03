@@ -1,8 +1,7 @@
 npm init -y 初始化本地node_modules
 npm install 安装相应loader 和 plugin
 
-打包命令
-npx webpack
+npx webpack 打包命令
 
 
 在package.json配置
